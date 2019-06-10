@@ -26,4 +26,7 @@ VOLUME /qmk_firmware
 WORKDIR /qmk_firmware
 COPY . .
 
-CMD make all:default
+ENV KEYBOARD all
+ENV KEYMAP default
+
+CMD make ${KEYBOARD}:${KEYMAP}
