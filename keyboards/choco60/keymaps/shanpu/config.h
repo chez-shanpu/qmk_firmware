@@ -17,6 +17,7 @@
 #pragma once
 
 // place overrides here
+#define PREVENT_STUCK_MODIFIERS
 
 // 他のキーを押さなければ長押し判定になるタイミングでも単押しにする
 #define RETRO_TAPPING
