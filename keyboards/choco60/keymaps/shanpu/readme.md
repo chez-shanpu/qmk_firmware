@@ -1,1 +1,1 @@
-# The default keymap for choco60
+# The shanpu original keymap for choco60
